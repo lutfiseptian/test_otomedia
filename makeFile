@@ -1,0 +1,18 @@
+APP_NAME = test_otomedia
+
+all: release
+
+debug:
+	@echo "Melakukan build Flutter mode DEBUG..."
+	flutter build apk --debug
+
+release:
+	@echo "Melakukan build Flutter mode RELEASE..."
+	flutter build apk --release
+
+clean:
+	@echo "Membersihkan build lama..."
+	flutter clean
+
+# Menandai target agar tidak dianggap sebagai nama file fisik
+.PHONY: all debug release clean
