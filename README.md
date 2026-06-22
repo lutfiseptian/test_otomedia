@@ -8,13 +8,13 @@ rubah code ini sesuai dengan port atau jaringan yang tersedia
 "http://10.163.212.37:3000".
 
 untuk LOGIN bebas pakai data apa saja Asalkan ada
-"@gmail.com" di karnakan untuk validasi email.
+"@gmail.com" di karenakan untuk validasi email.
 
 ketika sudah berhasil running aplikasi akan mengambil data setiap 10 detik.
 
-apa bila server belum konek dia akan menampung di data pending.
+apa bila server belum connect dia akan menampung di data pending.
 
-tapi ketika data berhasil konek server maka akan masuk otomatis ke data server online.
+tapi ketika data berhasil connect server maka akan masuk otomatis ke data server online.
 
 
 
